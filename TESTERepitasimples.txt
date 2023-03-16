@@ -1,0 +1,28 @@
+Algoritmo "semnome"
+
+Var
+senha,resposta: caractere
+i:inteiro
+
+
+Inicio
+i<-0
+
+escreva ("Defina uma senha:")
+leia (senha)
+limpatela
+repita
+escreva ("Digite a senha:")
+leia (resposta)
+i<- i  + 1
+se i = 5 entao
+ escreva("Erro ao informar senha")
+ interrompa
+fimse
+ate resposta = senha
+se resposta = senha entao
+ escreva ("Senha correta!")
+fimse
+
+
+Fimalgoritmo
